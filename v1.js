@@ -7,3 +7,6 @@ var todos = ['item 1', 'item 2', 'item 3'];
 
 //requirement 2
 console.log("My todos: ", todos);
+
+//requirement 3
+todos.push("item 4");
