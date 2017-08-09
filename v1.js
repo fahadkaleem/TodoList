@@ -10,3 +10,6 @@ console.log("My todos: ", todos);
 
 //requirement 3
 todos.push("item 4");
+
+// requirements 4
+todos[0] = "new item 1";
