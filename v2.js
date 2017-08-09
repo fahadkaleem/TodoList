@@ -20,3 +20,9 @@ function changeTodo(position,newValue){
     todos[position] = newValue;
     displayTodos();
 }
+
+// requirement 4
+function deleteTodo(position){
+    todos.splice(position,1);
+    displayTodos();
+}
