@@ -15,3 +15,8 @@ function addTodo(newTodo){
     displayTodos();
 }
 
+// requirement 3
+function changeTodo(position,newValue){
+    todos[position] = newValue;
+    displayTodos();
+}
