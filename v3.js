@@ -13,5 +13,10 @@ var todos = {
     addTodos: function (newTodo) {
         this.todos.push(newTodo);
         this.displayTodos();
+    },
+    //requirement 4
+    changeTodo: function(position,newValue){
+        this.todos[position] = newValue;
+        this.displayTodos();
     }
 };
