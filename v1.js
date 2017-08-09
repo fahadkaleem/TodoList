@@ -3,5 +3,7 @@
  */
 
 //requirement 1
-var todos = ['item 1','item 2','item 3']
+var todos = ['item 1', 'item 2', 'item 3'];
 
+//requirement 2
+console.log("My todos: ", todos);
