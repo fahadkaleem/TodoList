@@ -8,5 +8,10 @@ var todos = {
     // requirement 2
     displayTodos: function(){
         console.log('My Todos', this.todos);
+    },
+    //requirement 3
+    addTodos: function (newTodo) {
+        this.todos.push(newTodo);
+        this.displayTodos();
     }
 };
