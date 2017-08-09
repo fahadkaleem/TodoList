@@ -18,4 +18,9 @@
  4. It should have a changeTodo method.
  5. It should have a deleteTodo method.
  
+### **v4 Requirements**
+ 1. todoList.addTodo should add objects.
+ 2. todoList.changeTodo should change the todoText property.
+ 3. todoList.toggleCompleted should change the completed property.
+ 
  
